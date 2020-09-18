@@ -1,0 +1,25 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $color-nav-button;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: $br;
+
+  @media #{$breakpoint} {
+    padding: 10px 30px;
+  }
+}
+
+  .btn + .btn {
+    @media #{$breakpoint} {
+      margin-left: 10px;
+  }
+}
+
+@include theme($buttons);

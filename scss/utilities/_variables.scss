@@ -1,0 +1,50 @@
+
+// Descriptive color variables
+
+$teal      : #58e1c1;
+$gray      : #777;
+$blue      : #51ddfc;
+$white     : #fff;
+$light-gray: #ccc;
+
+// Functional color variables
+
+$color-primary      : $teal;
+$color-primary-light: lighten($teal, 15%);
+$color-secondary    : $gray;
+$color-link-login   : $blue;
+$color-nav-button   : $white;
+$color-img-border   : $light-gray;
+
+// Border radius
+
+$br: 5px;
+
+// Media query breakpoint
+
+$breakpoint: '(min-width: 768px)';
+
+// Button colors
+$buttons: (
+ 'default': $blue,
+   'error': #e4757a,
+    'info': #927bc1,
+ 'success': #63cc82,
+ 'warning': #fd7856,
+);
+
+// Grid colors
+$grid: (
+  'col-1': #927bc1,
+  'col-2': #fd7856,
+  'col-3': #deb2ee,
+  'col-4': #7ee6fd,
+  'col-5': #88d9a0,
+  'col-6': #4da2bb,
+  'col-7': #ec9fa3,
+  'col-8': #fd9f85,
+  'col-9': #e4757a,
+ 'col-10': #63cc82,
+ 'col-11': $blue,
+ 'col-12': #80e8d1,
+);
