@@ -469,8 +469,18 @@ a {
 }
 
 /* line 21, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/utilities/_mixins.scss */
+.success {
+  background-color: #63cc82;
+}
+
+/* line 21, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/utilities/_mixins.scss */
 .error {
   background-color: #e4757a;
+}
+
+/* line 21, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/utilities/_mixins.scss */
+.warning {
+  background-color: #fd7856;
 }
 
 /* line 21, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/utilities/_mixins.scss */
@@ -478,14 +488,39 @@ a {
   background-color: #927bc1;
 }
 
-/* line 21, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/utilities/_mixins.scss */
-.success {
-  background-color: #63cc82;
+/* line 27, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/components/_buttons.scss */
+.default:hover {
+  color: #fff;
+  background-color: #9cecfd;
+  transition: .7s ease-out;
 }
 
-/* line 21, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/utilities/_mixins.scss */
-.warning {
-  background-color: #fd7856;
+/* line 33, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/components/_buttons.scss */
+.success:hover {
+  color: #fff;
+  background-color: #9ddfb0;
+  transition: .7s ease-out;
+}
+
+/* line 39, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/components/_buttons.scss */
+.error:hover {
+  color: #fff;
+  background-color: #f1b5b8;
+  transition: .7s ease-out;
+}
+
+/* line 45, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/components/_buttons.scss */
+.warning:hover {
+  color: #fff;
+  background-color: #feb4a2;
+  transition: .7s ease-out;
+}
+
+/* line 51, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/components/_buttons.scss */
+.info:hover {
+  color: #fff;
+  background-color: #bdafd9;
+  transition: .7s ease-out;
 }
 
 /* ============================================= */
@@ -507,12 +542,6 @@ a {
 }
 
 /* line 18, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/components/_forms.scss */
-.input:hover {
-  background-color: #99edd9;
-  transition: 1s ease-out;
-}
-
-/* line 23, ../../../../../../../../../../../../../Users/richardstoneberg/Documents/TeamTreehouse/techdegree-project-4/scss/components/_forms.scss */
 .hidden {
   position: absolute;
   left: -10000px;

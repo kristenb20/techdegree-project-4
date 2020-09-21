@@ -7,6 +7,13 @@ $blue      : #51ddfc;
 $white     : #fff;
 $light-gray: #ccc;
 
+
+$green  : #63cc82;
+$pink   : #e4757a;
+$orange : #fd7856;
+$purple : #927bc1;
+
+
 // Functional color variables
 
 $color-primary      : $teal;
@@ -15,6 +22,12 @@ $color-secondary    : $gray;
 $color-link-login   : $blue;
 $color-nav-button   : $white;
 $color-img-border   : $light-gray;
+
+$default-fade: lighten($blue, 15%);
+$success-fade: lighten($green, 15%);
+$error-fade: lighten($pink, 15%);
+$warning-fade: lighten($orange, 15%);
+$info-fade: lighten($purple, 15%);
 
 // Border radius
 
@@ -27,10 +40,10 @@ $breakpoint: '(min-width: 768px)';
 // Button colors
 $buttons: (
  'default': $blue,
-   'error': #e4757a,
-    'info': #927bc1,
- 'success': #63cc82,
- 'warning': #fd7856,
+ 'success': $green,
+   'error': $pink,
+ 'warning': $orange,
+    'info': $purple,
 );
 
 // Grid colors

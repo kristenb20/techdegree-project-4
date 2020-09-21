@@ -23,3 +23,33 @@
 }
 
 @include theme($buttons);
+
+.default:hover {
+  color: $color-nav-button;
+  background-color: $default-fade;
+  transition: .7s ease-out;
+}
+
+.success:hover {
+  color: $color-nav-button;
+  background-color: $success-fade;
+  transition: .7s ease-out;
+}
+
+.error:hover {
+  color: $color-nav-button;
+  background-color: $error-fade;
+  transition: .7s ease-out;
+}
+
+.warning:hover {
+  color: $color-nav-button;
+  background-color: $warning-fade;
+  transition: .7s ease-out;
+}
+
+.info:hover {
+  color: $color-nav-button;
+  background-color: $info-fade;
+  transition: .7s ease-out;
+}
