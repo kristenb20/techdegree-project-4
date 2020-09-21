@@ -7,7 +7,6 @@ $blue      : #51ddfc;
 $white     : #fff;
 $light-gray: #ccc;
 
-
 $green  : #63cc82;
 $pink   : #e4757a;
 $orange : #fd7856;
@@ -25,9 +24,9 @@ $color-img-border   : $light-gray;
 
 $default-fade: lighten($blue, 15%);
 $success-fade: lighten($green, 15%);
-$error-fade: lighten($pink, 15%);
+  $error-fade: lighten($pink, 15%);
 $warning-fade: lighten($orange, 15%);
-$info-fade: lighten($purple, 15%);
+   $info-fade: lighten($purple, 15%);
 
 // Border radius
 
